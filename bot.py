@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 TOKEN = "8829750059:AAFGyELlmVcCHlvaa-_d3ZUOdmE5ygDOK9A"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    web_app = WebAppInfo(url="https://USERNAME.github.io/REPO/")
+    web_app = WebAppInfo(url="https://github.com/slvnnst-debug/nishevaya_poezdka_countdown/settings/pages")
 
     keyboard = [
         [KeyboardButton(text="⏳ Открыть таймер", web_app=web_app)]
